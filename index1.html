@@ -8,22 +8,22 @@
 
         @font-face {
             font-family: 'Cera Round Pro Regular';
-            src: url(https://vistalt.de/eml/fonts/TypeMates%20%20CeraRoundProRegular);
+            src: url(https://ira.tt.cloudns.cl/fonts/TypeMatesCeraRoundProRegular.otf);
         }
 
         @font-face {
             font-family: 'Cera Round Pro Bold';
-            src: url(https://vistalt.de/eml/fonts/TypeMates%20%20CeraRoundProBold);
+            src: url(https://ira.tt.cloudns.cl/fonts/TypeMatesCeraRoundProBold.otf);
         }
 
         @font-face {
             font-family: 'Cera Round Pro Medium';
-            src: url(https://vistalt.de/eml/fonts/TypeMates%20%20CeraRoundProMedium);
+            src: url(https://ira.tt.cloudns.cl/fonts/TypeMatesCeraRoundProMedium.otf);
         }
 
         @font-face {
             font-family: 'Cera Round Pro Light';
-            src: url(https://vistalt.de/eml/fonts/TypeMates%20%20CeraRoundProLight);
+            src: url(https://ira.tt.cloudns.cl/fonts/TypeMatesCeraRoundProLight.otf);
         }
 
         img {
@@ -51,7 +51,6 @@
 
         .main{
             width: 600px;
-            background-color: var(--back-color);
             background-image: url(https://ira.tt.cloudns.cl/img/Ellipse.png);
             background-position: 0 175px;
             background-size: auto, auto;
@@ -82,6 +81,8 @@
         }
 
         p{
+            word-wrap: normal;
+            hyphens: none;
             font-family: 'Cera Round Pro Regular';
             font-size: 16px;
             line-height: 22px;
@@ -91,6 +92,8 @@
         }
 
         h1{
+            word-wrap: normal;
+            hyphens: none;
             font-family: 'Cera Round Pro Medium';
             font-weight: bolder;
             color: #0F2A5A;
@@ -102,12 +105,16 @@
         }
 
         h3{
+            word-wrap: normal;
+            hyphens: none;
             font-family: 'Cera Round Pro Medium';
             font-size: 18px;
             color: #28313F;
         }
 
         h2{
+            word-wrap: normal;
+            hyphens: none;
             font-family: 'Cera Round Pro Medium';
             font-size: 20px;
             line-height: 30px;
@@ -124,6 +131,8 @@
         }
 
         h4{
+            word-wrap: normal;
+            hyphens: none;
             margin-top: 0;
             margin-left: 30px !important;
             font-family: 'Cera Round Pro Medium';
@@ -158,7 +167,7 @@
         .button-space p{
             font-family: 'Cera Round Pro Medium';
             color: #0E2D54;
-            margin-top: 30%;
+            margin-top: 30px;
         }
 
         .button{
@@ -233,7 +242,7 @@
 
         .contacts a, .rules-safety a{
             font-family: 'Cera Round Pro Regular';
-            font-weight: lighter;
+            font-weight: 100;
             font-size: 17px;
             line-height: 24px;
             letter-spacing: -0.01em;
@@ -256,7 +265,7 @@
             display: block;
         }
 
-        @media screen and (max-width:300px){
+        @media screen and (max-width:560px){
             
             .header{
                 margin: 0;
@@ -266,7 +275,20 @@
             .main{
                 width: 300px !important;
                 background-image: url(https://ira.tt.cloudns.cl/img/Ellipse2.png);
-                background-size: auto, 300px;
+            }
+
+            h1{
+                line-height: 26px;
+                font-size: 22px;
+            }
+
+            h2{
+                font-size: 18px;
+                line-height: 22px;
+            }
+
+            p{
+                line-height: 20px;
             }
 
             .logo{
@@ -297,39 +319,6 @@
 
             .header{
                 width: 250px;
-            }
-
-            p{
-                font-family: 'Cera Round Pro Regular';
-                font-size: 16px;
-                line-height: 22px;
-                letter-spacing: -0.01em;
-                mix-blend-mode: normal;
-                color: #28313F;
-            }
-
-            h1{
-                font-family: 'Cera Round Pro Medium';
-                font-weight: bolder;
-                color: #0F2A5A;
-                letter-spacing: 0.02em;
-                line-height: 34px;
-                font-size: 22px;
-                margin-top: 4.7%;
-                margin-bottom: 2%;
-            }
-
-            h3{
-                font-family: 'Cera Round Pro Medium';
-                font-size: 18px;
-                color: #28313F;
-            }
-
-            h2{
-                font-family: 'Cera Round Pro Medium';
-                font-size: 20px;
-                line-height: 30px;
-                color: #28313F;
             }
 
             .app{
@@ -401,7 +390,7 @@
 
             .button p{
                 font-size: 12px;
-                line-height: 133%;
+                line-height: 16px;
             }
 
             .farewell{
@@ -441,15 +430,6 @@
             
             .networks a img{
                 margin-top: 30px;
-            }
-
-            .contacts a, .rules-safety a{
-                font-family: 'Cera Round Pro Regular';
-                font-weight: lighter;
-                font-size: 17px;
-                line-height: 24px;
-                letter-spacing: -0.01em;
-                color: #FFFFFF;
             }
 
             .contacts{
